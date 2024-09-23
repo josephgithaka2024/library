@@ -15,7 +15,7 @@ export default function Dropdown({
     return (
         <Container styles='flex flex-col'>
             <div
-                className='flex flex-row items-center gap-4 h-12'
+                className='flex flex-row items-center gap-4 h-12 hover:cursor-pointer'
                 onClick={toogleDropdown}
             >
                 <div className='flex flex-row items-center justify-start'>
