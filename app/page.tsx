@@ -6,7 +6,7 @@ import Main from './components/Main';
 
 export default function Landing() {
     return (
-        <div>
+        <div className='w-full h-full flex flex-row items-start justify-start'>
             <Aside />
             <Main>
                 <Header />
