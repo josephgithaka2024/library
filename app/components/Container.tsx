@@ -1,3 +1,3 @@
-export default function Container({ children }: OnlyChildren) {
-    return <div className='flex-grow w-full'>{children}</div>;
+export default function Container({ children, styles }: OnlyChildren) {
+    return <div className={['w-full', styles].join(' ')}>{children}</div>;
 }
